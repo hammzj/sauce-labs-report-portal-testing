@@ -1,24 +1,28 @@
 {
-    "name": "reportportal-issue-1723-test-suite",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "run:wdio": "wdio run wdio.conf.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "wdio": "^6.0.1"
-    },
-    "devDependencies": {
-        "@wdio/cli": "^7.19.3",
-        "@wdio/cucumber-framework": "<8.0.0",
-        "@wdio/local-runner": "^7.19.5",
-        "@wdio/sauce-service": "7.x.x",
-        "@wdio/spec-reporter": "^7.19.5",
-        "wdio-reportportal-reporter": "7.4.1",
-        "wdio-reportportal-service": "7.3.1"
-    }
+  "name": "sauce-labs-report-portal-testing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "@wdio/cli": "^7.19.6",
+    "@wdio/cucumber-framework": "^7.19.5",
+    "chai": "^4.3.6",
+    "wdio": "^6.0.1",
+    "wdio-reportportal-service": "7.3.1"
+  },
+  "devDependencies": {
+    "@wdio/dot-reporter": "^7.19.5",
+    "@wdio/jasmine-framework": "^7.19.5",
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/sauce-service": "^7.19.5",
+    "wdio-reportportal-reporter": "^7.4.1"
+  }
 }
